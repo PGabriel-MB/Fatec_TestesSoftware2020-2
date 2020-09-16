@@ -7,11 +7,11 @@ public class AppTest {
     @Test
     public void quintaFeiraTest() {
         App app = new App();
-        assertEquals("quinta", app.diaDaSemana(1998, 9, 10));
+        assertEquals("quinta-feira", app.diaDaSemana(10, 9, 1998));
     }
 
     public void segundaFeiraTest() {
         App app = new App();
-        assertEquals("segunda", app.diaDaSemana(2003, 2, 24));
+        assertEquals("segunda-feira", app.diaDaSemana(24, 2, 2003));
     }
 }
