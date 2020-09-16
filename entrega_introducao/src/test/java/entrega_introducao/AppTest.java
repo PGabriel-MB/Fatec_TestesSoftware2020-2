@@ -6,12 +6,13 @@ import org.junit.jupiter.api.Test;
 public class AppTest {
     @Test
     public void quintaFeiraTest() {
-        App app = new App();
-        assertEquals("quinta-feira", app.diaDaSemana(10, 9, 1998));
+        DayOfWeek dow = new DayOfWeek();
+        assertEquals("quinta-feira", dow.diaDaSemana(10, 9, 1998));
     }
 
+    @Test
     public void segundaFeiraTest() {
-        App app = new App();
-        assertEquals("segunda-feira", app.diaDaSemana(24, 2, 2003));
+        DayOfWeek dow = new DayOfWeek();
+        assertEquals("segunda-feira", dow.diaDaSemana(24, 2, 2003));
     }
 }
