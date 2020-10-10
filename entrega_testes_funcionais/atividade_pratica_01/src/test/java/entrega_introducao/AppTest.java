@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class AppTest {
     /*
         Partindo da premissa de que Sábado e Domingo são considerados FIM DE SEMANA
-        e que os demais dias são considerados DIA DE SEMANA, os testes a seguir tentam verficar ser
+        e que os demais dias são considerados DIA DE SEMANA, os testes a seguir tentam verficar se
         o sistema consegue dizer se a data indicada cai em um 'Fim de Semana' ou
         se cai em algum 'Dia de Semana'
 
