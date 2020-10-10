@@ -11,4 +11,8 @@ public class DayOfWeek {
         Locale pt_BR = new Locale("pt", "BR");
         return diaSemana.getAsText(pt_BR);
     }
+
+    public String fimDeSemana(int dia, int mes, int ano) {
+       return "";
+    }
 }

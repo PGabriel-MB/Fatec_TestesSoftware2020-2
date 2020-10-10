@@ -10,3 +10,9 @@ Repositório para executar as entregas da disciplinas de Testes de Software na F
 ### Pasta ``entrega_testes_funcionais/`` :information_source:
 
 Nesta pasta foi desenvolvida a mesma aplicação da pasta ``primeira_entrega/``, porém agora na reaização dos testes foram considerados os métodos de partições de equivalência, aliados as diretrizes do **TDD**.
+Dentro dela a aplicação sobre `partições de equivalência` se encontra em:
+
+```sh
+entrega_testes_funcionais/
+    atividade_pratica_01/
+```
