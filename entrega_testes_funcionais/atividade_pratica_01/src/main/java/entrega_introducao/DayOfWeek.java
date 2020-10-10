@@ -13,6 +13,16 @@ public class DayOfWeek {
     }
 
     public String fimDeSemana(int dia, int mes, int ano) {
-       return "";
+        DateTime dt = new DateTime(ano, mes, dia, 00, 00, 00);
+        DateTime.Property diaSemana = dt.dayOfWeek();
+
+        Locale pt_BR = new Locale("pt", "BR");
+        String dow = diaSemana.getAsText(pt_BR);
+
+        if (dow.equals("domingo") || dow.equals("sabado")) {
+            return dow + ", Fim de Semana";
+        }
+        
+        return dow + ", Dia de Semana";
     }
 }
